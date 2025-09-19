@@ -22,6 +22,20 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        network: {
+          good: "hsl(var(--network-good))",
+          poor: "hsl(var(--network-poor))",
+          critical: "hsl(var(--network-critical))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
